@@ -1,0 +1,241 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.logo
+{
+    position: absolute;
+    color: white;
+    left: 10px;
+}
+
+.logo span
+{
+    color: rgb(255, 145, 0);
+    font-weight: bold;
+}
+
+header
+{
+    width: 100vw;
+    height: 75%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#011b22ce 60%,rgb(255, 145, 0) 40%);
+}
+
+header .presentation
+{
+    color: white;
+    font-size: 1.3em;
+}
+header .presentation i 
+{
+    color: rgba(255, 255, 255, 0.729);
+    font-size: 0.9em;
+}
+
+header .presentation h1
+{
+    color: rgb(255, 145, 0);
+    font-weight: bold;
+}
+
+header img
+{
+    transform: translateY(40px);
+}
+
+header .presentation .btn-here-me
+{
+    background: none;
+    border: 1px solid rgb(255, 145, 0);
+    border-radius: 3px;
+    outline: none;
+    color: rgb(255, 145, 0);
+    font-size: 0.7em;
+    padding: 5px 15px;
+    transition: 0.5s;
+    line-height: 20px;
+}
+
+header .presentation .btn-here-me:hover
+{
+    color: #011b22ce;
+    border-color: transparent;
+    background: rgb(255, 145, 0);
+}
+
+
+main .sect1
+{
+    background: #011b22ea;
+    color: white;
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    gap: 80px;
+    padding: 50px;
+    justify-content: center;
+}
+
+main .sect1 .image img
+{
+    position: absolute;
+    top: 79%;
+    left: 7vw;
+    width: 300px;
+    height: 360px;
+}
+
+main .sect1 .image .carre
+{
+    width: 300px;
+    height: 370px;
+    border: 10px solid rgb(255, 145, 0)
+}
+
+main .sect1 .about 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+main .sect1 .about h1
+{
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+
+main .sect1 .about .ligne
+{
+    width: 65px;
+    height: 3px;
+    background: rgb(255, 145, 0);
+}
+
+main .sect1 .about p
+{
+    color: rgba(255, 255, 255, 0.627);
+}
+
+main .sect1 .about .btn
+{
+    display: flex;
+    gap: 15px;
+}
+
+main .sect1 .about button
+{
+    padding: 5px 15px;
+    background: none;
+    border: 1px solid rgb(255, 145, 0);
+    border-radius: 3px;
+    color: rgb(255, 145, 0);
+    transition: 0.5s;
+}
+
+main .sect1 .about button:hover
+{
+    color: #011b22ce;
+    border-color: transparent;
+    background: rgb(255, 145, 0);
+}
+
+main .sect2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #00232cf7;
+    color: white;
+    width: 100vw;
+}
+
+main .sect2 .services h1
+{
+    font-size: 2em;
+}
+
+main .sect2 .services .ligne
+{
+    width: 80px;
+    height: 4px;
+    background: rgb(255, 145, 0);
+}
+
+main .sect2 .image_sv
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    gap: 25px;
+    align-items: center;
+}
+
+main .sect2 .image_sv article
+{
+    background: url(image/photo7.jpg);
+    background-color: cover;
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+    
+}
+
+main .sect2 .image_sv article div
+{
+    backdrop-filter: blur(5px);
+    width: 500px;
+    height: 300px;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+main .sect2 .image_sv {
+    padding: 8%;
+}
+main .sect2 .image_sv article div p
+{
+    margin: 0px 30px;
+}
+main .sect2 .image_sv article div h1
+{
+    font-size: 2em;
+}
+main .sect2 .image_sv article:first-child div
+{
+    background: linear-gradient(to left,transparent,rgba(3, 112, 137, 0.908));
+   
+}
+
+main .sect2 .image_sv article:last-child div
+{
+    background: linear-gradient(to left,transparent,rgba(3, 137, 61, 0.894));
+   
+}
+
+main .sect2 .image_sv article:nth-child(2) div
+{
+    background: linear-gradient(to left,transparent,rgba(159, 131, 7, 0.928));
+   
+}
+
+main .sect2 .image_sv article:nth-child(3) div
+{
+    background: linear-gradient(to left,transparent,rgba(137, 3, 124, 0.935));
+   
+}
